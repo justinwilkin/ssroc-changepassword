@@ -1,0 +1,133 @@
+#password-form {
+    margin: 15px;
+}
+.field-wrapper {
+    height: 50px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid rgba(75,75,75,0.1);
+    border-bottom: 2px solid rgba(75,75,75,0.3);
+    position: relative;
+}
+
+.submit-wrapper {
+    height: 50px;
+    margin-top: 25px;
+    background-color: #3498db;
+    color: white;
+    border: 1px solid rgba(75,75,75,0.1);
+    border-bottom: 2px solid rgba(75,75,75,0.3);
+}
+
+.user-wrapper {
+    padding-left: 20px;
+    line-height: 50px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid rgba(75,75,75,0.1);
+    border-bottom: 2px solid rgba(75,75,75,0.3);
+    font-size: 0.8em;
+    color: #757575;
+}
+
+#username {
+    padding-left: 20px;
+    color: #757575;
+}
+
+.field {
+    height: 48px;
+    margin: 0;
+    border: none;
+    padding-left: 30px;
+    font-size: 1em;
+    color: #757575;
+    background-color: rgba(0,0,0,0);
+}
+
+.field-button {
+    height: 48px;
+    margin: 0;
+    border: none;
+    font-size: 0.9em;
+    color: #ecf0f1;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+#username-photo {
+    height: 50px;
+    position: absolute;
+}
+
+#old-password-photo {
+    height: 50px;
+    position: absolute;
+}
+
+#password-photo {
+    height: 50px;
+    position: absolute;
+}
+
+#again-photo {
+    height: 50px;
+    position: absolute;
+}
+
+.light:placeholder-shown {
+    opacity: 0.5; /* Red border only if the input is empty */
+}
+
+.incorrect {
+    background-color: #e74c3c;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 2px;
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
+
+.incorrect-cross {
+    width: 50%;
+    height: 50%;
+    padding: 25%;
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
+
+input:placeholder-shown {
+    font-size: 0.7em;
+}
+
+#new-password-wrapper {
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
+
+.wrapper-hidden {
+    opacity: 0;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#new-again-wrapper {
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
+
+#submit-wrapper {
+    -webkit-transition: 1.1s ease-in-out;
+    -moz-transition: 1.1s ease-in-out;
+    -o-transition: 1.1s ease-in-out;
+}
