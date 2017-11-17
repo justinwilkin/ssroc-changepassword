@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Change Password</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+</head>
+
+<body>
+
+
+    <section id="navbar">
+        <h4 id="navbar-title">Change Password</h4>
+    </section>
+
+    <section id="content">
+
+        <div id="password-form">
+            <div  class="user-wrapper">
+                <div id="" type="text">
+                    
+                    Username: <span id="username"></span>
+                    
+                </div>
+            </div>
+            <div id="password-wrapper" class="field-wrapper">
+                <input id="password" placeholder="Old Password" class="field light" type="password" />
+            </div>
+            <div id="new-password-wrapper" class="field-wrapper wrapper-hidden">
+                <input id="new-password" placeholder="New Password" class="field light" type="password" />
+            </div>
+            <div id="new-again-wrapper" class="field-wrapper wrapper-hidden">
+                <input id="new-again" placeholder="Repeat Password" class="field light" type="password" />
+            </div>
+            
+            <div class="submit-wrapper">
+                <input onclick="login()" id="submit-button" placeholder="Repeat Password" class="field-button light" type="submit" value="Login" />
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="return"> 
+        
+            
+            
+    </section>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+
+</body>
+
+</html>
